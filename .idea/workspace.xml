@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91fc9cc8-ca30-4fb0-95f5-e59d88d498b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/0127validation.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/0819AI修改introduction+methods.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/0820AI修改introduction (含ref).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/0828 AI-Mg-alloy SI-V3-shilei.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/20240725-Ai+Mg alloys-v1-shilei.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/20240827-Ai+Mg alloys-v4-ai-reference.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/20240827-Ai+Mg alloys-v4-endnote-reference-shilei.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/20240827-Ai+Mg alloys-v4-methods-coments-shilei.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/20240829-AI合金SI-V3-shilei.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/20240829-Ai+Mg alloys-v4-shilei.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/240523-Ai+Mg alloys-v1-qli(史磊修改).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/240625-Ai+Mg alloys.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/AI 内容大纲.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/AI合金0827修改.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/AI结果整理.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/PDF/0368507944/Lundberg-2020-From local explanations to globa.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/PDF/0575525355/Rodríguez-Pérez-2020-Interpretation of machine.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/PDF/1655766982/Chicco-2021-The coefficient of determination R.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/PDF/1780179607/Rudin-2019-Stop explaining black box machine l.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/PDF/1785871364/Linardatos-2020-Explainable ai_ A review of ma.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/PDF/3299319118/Sutton-2020-Identifying domains of applicabili.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/PDF/4260631448/Lundberg-2020-From local explanations to glob1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/sdb/pdb.eni" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.Data/sdb/sdb.eni" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Endnote/AI_Alloy.enl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/MOOC_reviews.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/Methods改动.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref10.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref11.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref12.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref13.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref14.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref15.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref16.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref17.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref18.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref19.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref20.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref21.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref22.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref29.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref30.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref31.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref32.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref35.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref40.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref41.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref42.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref43.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref44.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref48.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref49.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref50.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref7.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref8.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/References/refs_ai/ref9.enw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/SHAP（晶粒尺寸、经验公式）.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/SI部分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/d_electron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/individual_model_scores.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/introduction修改.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/notes.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/r2scores.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/rf.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/score_different_algorithms.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/score_different_algorithms_kl.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/~$240725-Ai+Mg alloys-v1-shilei.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/~$SI部分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/~$合金ai图片（初稿更新）.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/~$合金图片初稿0723.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/~$图片修改0727.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/~$文章思路.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/元素叠加示意图.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金AI初稿V1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金AI论文V1（未完成）.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金AI部分V1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金ai图片（初稿更新）.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金图片0711.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金图片0715.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金图片0716.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金图片0717.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金图片初稿0723.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金摘要介绍（史磊）.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金流程图.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/合金流程图.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/图片修改0727.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/大纲.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/AI可解释性/Accounts of Materials Research-材料、化学领域可解释机器学习概述.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/AI可解释性/npj-computational materials-材料设计利用模型解释与决策解释.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/AS Strengthened High-Entropy Alloys.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/Adv Eng Mater - 2004 - Potzies - Fatigue of Magnesium Alloys.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/High elastic modulus Mg alloy by ML.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/Synchronously enhancing the strength, toughness and stress corrosion resistance of high-end aluminum alloys.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/Understanding the factors influencing yield strength on Mg alloys.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/balance strength and ductility.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/high throughput calculations of binary mg alloys.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/high_strength Al alloy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/renct progress of mg alloy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/学位论文1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/对比工作/集成学习合金分类.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/学习论文/数据拓展图片.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/文章思路.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/最终模型结果.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/模型的可解释性分析 (单因素分析).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/模型稳定性分析.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/正文图片/rf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/正文图片/xgb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/正文图片/图片整理.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/正文图片/集成学习示意图(1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/正文图片/集成学习示意图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/正文图片/集成学习示意图.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/正文图片/集成学习示意图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/正文图片/集成学习示意图1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(1)/流程图_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(1)/流程图_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(1)/流程图_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图(2)/流程图_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/Reference_Abstract.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图2.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图2.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图3.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图3.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_02(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_03(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_08(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_09(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/流程图/流程图_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/讨论截图/Snipaste_2024-05-30_19-48-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/讨论截图/Snipaste_2024-05-30_20-10-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/讨论截图/Snipaste_2024-05-30_22-03-28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文写作/论文数据信息.xlsx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ct3Wy5rzeozw6ykPg2UR5qJMxC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.20240607.executor": "Run",
+    "Python.Dataset.executor": "Run",
+    "Python.Final_feature_thresholds_compare.executor": "Run",
+    "Python.KNN.executor": "Run",
+    "Python.combine_shap.executor": "Run",
+    "Python.concat_excels.executor": "Run",
+    "Python.dataset_stability.executor": "Run",
+    "Python.final_performance.executor": "Run",
+    "Python.gboost_compare_same.executor": "Run",
+    "Python.generate_experimental_validation_data.executor": "Run",
+    "Python.generate_experimental_validation_data_with_xichuxiang.executor": "Run",
+    "Python.generate_experimental_validation_data_without_xichuxiang (1).executor": "Run",
+    "Python.get_all_prediciton_results.executor": "Run",
+    "Python.get_experimental0127_data.executor": "Run",
+    "Python.get_experimental_data.executor": "Run",
+    "Python.get_pymatgen_features.executor": "Run",
+    "Python.get_top_features.executor": "Run",
+    "Python.kl_281features.executor": "Run",
+    "Python.kl_286features (1).executor": "Run",
+    "Python.kl_289features.executor": "Run",
+    "Python.kl_Full_features.executor": "Run",
+    "Python.kl_knn_param_k_analysis.executor": "Run",
+    "Python.kl_model.executor": "Run",
+    "Python.kl_model_generation_gboost.executor": "Run",
+    "Python.kl_model_generation_knn.executor": "Run",
+    "Python.kl_model_generation_rf.executor": "Run",
+    "Python.kl_model_generation_xgboost.executor": "Run",
+    "Python.kl_top20features.executor": "Run",
+    "Python.muliti_simple_analysis.executor": "Run",
+    "Python.multi_sample_analysis.executor": "Run",
+    "Python.new_shap.executor": "Run",
+    "Python.new_shap_final.executor": "Run",
+    "Python.predict_test.executor": "Run",
+    "Python.predict_validation (1).executor": "Run",
+    "Python.predict_validation (2).executor": "Run",
+    "Python.predict_validation.executor": "Run",
+    "Python.qf_281features.executor": "Run",
+    "Python.qf_289features (1).executor": "Run",
+    "Python.qf_289features.executor": "Run",
+    "Python.qf_FULL.executor": "Run",
+    "Python.qf_knn_param_k_analysis.executor": "Run",
+    "Python.qf_model.executor": "Run",
+    "Python.qf_model_generation_gboost.executor": "Run",
+    "Python.qf_model_generation_gboost_test.executor": "Run",
+    "Python.qf_model_generation_knn.executor": "Run",
+    "Python.qf_model_generation_rf.executor": "Run",
+    "Python.qf_model_generation_xgboost.executor": "Run",
+    "Python.rft_compare_same.executor": "Run",
+    "Python.root_node_analysis_kl.executor": "Run",
+    "Python.root_node_analysis_qf.executor": "Run",
+    "Python.select_target_system.executor": "Run",
+    "Python.shap_analysis.executor": "Run",
+    "Python.shap_test.executor": "Run",
+    "Python.simple_test.executor": "Run",
+    "Python.test (1).executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_genearte.executor": "Run",
+    "Python.test_knm_optimization.executor": "Run",
+    "Python.test_knn (1).executor": "Run",
+    "Python.test_knn.executor": "Run",
+    "Python.xgb_compare_same.executor": "Run",
+    "Python.xgb_plot_test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/AIMS_Lab/my_project/AI_Alloy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\AIMS_Lab\my_project\AI_Mg_Alloy_Design\屈服强度" />
+      <recent name="G:\AIMS_Lab\my_project\合金（下）\Small_Data_new\dataset_prediction" />
+      <recent name="G:\AIMS_Lab\my_project\合金（下）\Small_Data_new\final_model\kl\rf" />
+      <recent name="G:\AIMS_Lab\my_project\合金（下）\model_analysis\d_electrons" />
+      <recent name="C:\Users\acer-pc\Desktop\AIMS_Lab\my_project\合金（下）\抗拉强度" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\AIMS_Lab\my_project\AI_Mg_Alloy_Design\model_analysis\histogram_results" />
+      <recent name="G:\AIMS_Lab\my_project\AI_Mg_Alloy_Design\屈服强度\models\rf" />
+      <recent name="G:\AIMS_Lab\my_project\合金（下）\Small_Data_new\dataset_prediction" />
+      <recent name="C:\Users\acer-pc\Desktop\AIMS_Lab\my_project\合金（下）\shap_new\plots" />
+      <recent name="C:\Users\acer-pc\Desktop\AIMS_Lab\my_project\合金预测课题——曾院长（最终）\model_analysis\small_model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.get_all_prediciton_results">
+    <configuration name="get_all_prediciton_results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="合金预测课题——曾院长" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_all_prediciton_results.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="muliti_simple_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="合金预测课题——曾院长" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_analysis/general_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_analysis/general_model/muliti_simple_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multi_sample_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="合金预测课题——曾院长" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_analysis" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_analysis/multi_sample_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="合金预测课题——曾院长" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_analysis/predict_performance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_analysis/predict_performance/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_genearte" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="合金预测课题——曾院长" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Small_Data_new/dataset_prediction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Small_Data_new/dataset_prediction/test_genearte.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.get_all_prediciton_results" />
+      <item itemvalue="Python.muliti_simple_analysis" />
+      <item itemvalue="Python.multi_sample_analysis" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.test_genearte" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.get_all_prediciton_results" />
+        <item itemvalue="Python.test_genearte" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.multi_sample_analysis" />
+        <item itemvalue="Python.muliti_simple_analysis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91fc9cc8-ca30-4fb0-95f5-e59d88d498b8" name="Changes" comment="" />
+      <created>1708917082764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708917082764</updated>
+      <workItem from="1708917083829" duration="4649000" />
+      <workItem from="1709088352306" duration="1242000" />
+      <workItem from="1709714695398" duration="274000" />
+      <workItem from="1709714972362" duration="18469000" />
+      <workItem from="1709792515492" duration="922000" />
+      <workItem from="1709793488075" duration="458000" />
+      <workItem from="1709814806108" duration="2196000" />
+      <workItem from="1709820534845" duration="215000" />
+      <workItem from="1709820786284" duration="1223000" />
+      <workItem from="1709822032660" duration="362000" />
+      <workItem from="1709822572646" duration="222000" />
+      <workItem from="1709823398476" duration="362000" />
+      <workItem from="1709900051486" duration="362000" />
+      <workItem from="1709900652320" duration="688000" />
+      <workItem from="1709902399320" duration="1232000" />
+      <workItem from="1709903648984" duration="3158000" />
+      <workItem from="1709909563665" duration="24000" />
+      <workItem from="1709951143208" duration="2832000" />
+      <workItem from="1709960131887" duration="982000" />
+      <workItem from="1710294162602" duration="784000" />
+      <workItem from="1710410806153" duration="599000" />
+      <workItem from="1710489367521" duration="144000" />
+      <workItem from="1710688060879" duration="5658000" />
+      <workItem from="1710725373743" duration="7317000" />
+      <workItem from="1710739486210" duration="1934000" />
+      <workItem from="1710741697575" duration="7454000" />
+      <workItem from="1710749213930" duration="8913000" />
+      <workItem from="1710762244589" duration="9000" />
+      <workItem from="1710762266661" duration="2594000" />
+      <workItem from="1710766452861" duration="435000" />
+      <workItem from="1710771411058" duration="1779000" />
+      <workItem from="1710810268636" duration="23832000" />
+      <workItem from="1710838651533" duration="42000" />
+      <workItem from="1710838849062" duration="4327000" />
+      <workItem from="1710852782211" duration="11000" />
+      <workItem from="1710852830518" duration="5483000" />
+      <workItem from="1710860065123" duration="1357000" />
+      <workItem from="1710864209347" duration="59000" />
+      <workItem from="1711162463264" duration="3222000" />
+      <workItem from="1711170900383" duration="804000" />
+      <workItem from="1711330729784" duration="114000" />
+      <workItem from="1711424806301" duration="35000" />
+      <workItem from="1711508429763" duration="2577000" />
+      <workItem from="1711606420258" duration="3820000" />
+      <workItem from="1711610584639" duration="8619000" />
+      <workItem from="1712047836277" duration="15956000" />
+      <workItem from="1712072776323" duration="5310000" />
+      <workItem from="1712278468059" duration="9483000" />
+      <workItem from="1712542780638" duration="17000" />
+      <workItem from="1712982012643" duration="5327000" />
+      <workItem from="1713077288205" duration="150000" />
+      <workItem from="1713145489502" duration="5222000" />
+      <workItem from="1713161523826" duration="3290000" />
+      <workItem from="1713170893810" duration="23571000" />
+      <workItem from="1713257795010" duration="4755000" />
+      <workItem from="1713426446294" duration="49000" />
+      <workItem from="1713766463398" duration="4582000" />
+      <workItem from="1713927675767" duration="59000" />
+      <workItem from="1713941471553" duration="795000" />
+      <workItem from="1713961172301" duration="1241000" />
+      <workItem from="1714918000422" duration="56000" />
+      <workItem from="1714918082438" duration="84000" />
+      <workItem from="1714918218946" duration="132000" />
+      <workItem from="1714918536033" duration="3425000" />
+      <workItem from="1714980044193" duration="8090000" />
+      <workItem from="1715049619770" duration="2287000" />
+      <workItem from="1715063394227" duration="11593000" />
+      <workItem from="1715088565545" duration="4840000" />
+      <workItem from="1715133212974" duration="7282000" />
+      <workItem from="1715217529638" duration="3600000" />
+      <workItem from="1715236570345" duration="9989000" />
+      <workItem from="1715306597454" duration="4243000" />
+      <workItem from="1715323877883" duration="18603000" />
+      <workItem from="1715353537937" duration="1032000" />
+      <workItem from="1715428455697" duration="7582000" />
+      <workItem from="1715488148584" duration="7852000" />
+      <workItem from="1715655611720" duration="80000" />
+      <workItem from="1715764756421" duration="2612000" />
+      <workItem from="1715911385799" duration="2497000" />
+      <workItem from="1715928470143" duration="2441000" />
+      <workItem from="1716012720399" duration="4247000" />
+      <workItem from="1716792405730" duration="3615000" />
+      <workItem from="1717059791955" duration="4519000" />
+      <workItem from="1717469327144" duration="4323000" />
+      <workItem from="1717485734787" duration="853000" />
+      <workItem from="1718070307791" duration="6283000" />
+      <workItem from="1718083455397" duration="161000" />
+      <workItem from="1718083974139" duration="629000" />
+      <workItem from="1718084742352" duration="1968000" />
+      <workItem from="1718087904743" duration="1077000" />
+      <workItem from="1718089003825" duration="14133000" />
+      <workItem from="1718107882724" duration="320000" />
+      <workItem from="1718110086435" duration="2411000" />
+      <workItem from="1718156753831" duration="16936000" />
+      <workItem from="1718191538530" duration="2862000" />
+      <workItem from="1718197358491" duration="2000" />
+      <workItem from="1718243591570" duration="16650000" />
+      <workItem from="1718285218369" duration="7756000" />
+      <workItem from="1718346742171" duration="2124000" />
+      <workItem from="1718349964639" duration="7320000" />
+      <workItem from="1718368907492" duration="7516000" />
+      <workItem from="1718429021648" duration="4517000" />
+      <workItem from="1718621047464" duration="33000" />
+      <workItem from="1718762772071" duration="5815000" />
+      <workItem from="1718847950379" duration="3446000" />
+      <workItem from="1718871084552" duration="2179000" />
+      <workItem from="1718959932965" duration="689000" />
+      <workItem from="1719193961428" duration="5990000" />
+      <workItem from="1719223826178" duration="2281000" />
+      <workItem from="1719279127553" duration="3324000" />
+      <workItem from="1719313204376" duration="1367000" />
+      <workItem from="1719370061334" duration="11464000" />
+      <workItem from="1719393720004" duration="3446000" />
+      <workItem from="1719405913668" duration="1545000" />
+      <workItem from="1719452182670" duration="2097000" />
+      <workItem from="1719538892658" duration="14054000" />
+      <workItem from="1719639315783" duration="1200000" />
+      <workItem from="1719710924323" duration="28888000" />
+      <workItem from="1719796939610" duration="24069000" />
+      <workItem from="1719841764644" duration="14452000" />
+      <workItem from="1719883924166" duration="10311000" />
+      <workItem from="1719903369291" duration="12942000" />
+      <workItem from="1719925022656" duration="2479000" />
+      <workItem from="1719928996925" duration="1452000" />
+      <workItem from="1719936468905" duration="226000" />
+      <workItem from="1719938125809" duration="691000" />
+      <workItem from="1719971019406" duration="29789000" />
+      <workItem from="1720058325964" duration="19645000" />
+      <workItem from="1720141142143" duration="12970000" />
+      <workItem from="1720235186278" duration="12774000" />
+      <workItem from="1720324767710" duration="17005000" />
+      <workItem from="1720402980200" duration="12060000" />
+      <workItem from="1720436983886" duration="10763000" />
+      <workItem from="1720449102107" duration="2002000" />
+      <workItem from="1720489705644" duration="29485000" />
+      <workItem from="1720530746452" duration="5112000" />
+      <workItem from="1720575255598" duration="20871000" />
+      <workItem from="1720618703764" duration="5792000" />
+      <workItem from="1720661297810" duration="17447000" />
+      <workItem from="1720831533458" duration="14472000" />
+      <workItem from="1720880562689" duration="5748000" />
+      <workItem from="1720974492470" duration="3147000" />
+      <workItem from="1721024924246" duration="8910000" />
+      <workItem from="1721093737721" duration="15774000" />
+      <workItem from="1721179982089" duration="13141000" />
+      <workItem from="1721450651435" duration="5739000" />
+      <workItem from="1721540282253" duration="2410000" />
+      <workItem from="1721716857579" duration="2504000" />
+      <workItem from="1721836336740" duration="5281000" />
+      <workItem from="1721925425138" duration="10772000" />
+      <workItem from="1721971137816" duration="2563000" />
+      <workItem from="1722248618356" duration="5193000" />
+      <workItem from="1722304410932" duration="5197000" />
+      <workItem from="1723082985242" duration="17933000" />
+      <workItem from="1723126700576" duration="1433000" />
+      <workItem from="1723168341565" duration="10009000" />
+      <workItem from="1723213192565" duration="81000" />
+      <workItem from="1723213307522" duration="1781000" />
+      <workItem from="1723531114895" duration="7470000" />
+      <workItem from="1723629764873" duration="645000" />
+      <workItem from="1723630440191" duration="8633000" />
+      <workItem from="1724062896892" duration="5987000" />
+      <workItem from="1724503067783" duration="97000" />
+      <workItem from="1724839972580" duration="2758000" />
+      <workItem from="1725067287780" duration="13000" />
+      <workItem from="1725067458746" duration="19457000" />
+      <workItem from="1725108452640" duration="739000" />
+      <workItem from="1725109384407" duration="1240000" />
+      <workItem from="1725110694972" duration="1353000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Datasets/more_datasets_by_jinglichicun.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tensile_Strength/utils.py</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$qf_289features.coverage" NAME="qf_289features Coverage Results" MODIFIED="1719986399830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data_new/qf" />
+    <SUITE FILE_PATH="coverage/$xgb_plot_test.coverage" NAME="xgb_plot_test Coverage Results" MODIFIED="1719398860689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree_analysis" />
+    <SUITE FILE_PATH="coverage/$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1724064150786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_analysis/predict_performance" />
+    <SUITE FILE_PATH="coverage/$Predict_Datasets.coverage" NAME="Predict_Datasets Coverage Results" MODIFIED="1712057771110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Final_Model/models" />
+    <SUITE FILE_PATH="coverage/$shap_analysis.coverage" NAME="shap_analysis Coverage Results" MODIFIED="1715237271546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHAP" />
+    <SUITE FILE_PATH="coverage/$predict_validation__1_.coverage" NAME="predict_validation (1) Coverage Results" MODIFIED="1714979031014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度_refined" />
+    <SUITE FILE_PATH="coverage/$rft_compare_same.coverage" NAME="rft_compare_same Coverage Results" MODIFIED="1709793657247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/项目文件" />
+    <SUITE FILE_PATH="coverage/$qf_FULL.coverage" NAME="qf_FULL Coverage Results" MODIFIED="1718160675270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data" />
+    <SUITE FILE_PATH="coverage/$qf_model_generation.coverage" NAME="qf_model_generation Coverage Results" MODIFIED="1710828255019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Final_Model" />
+    <SUITE FILE_PATH="coverage/$muliti_simple_analysis.coverage" NAME="muliti_simple_analysis Coverage Results" MODIFIED="1720880608081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_analysis/general_model" />
+    <SUITE FILE_PATH="coverage/$test_genearte.coverage" NAME="test_genearte Coverage Results" MODIFIED="1724066305923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data_new/dataset_prediction" />
+    <SUITE FILE_PATH="coverage/$get_pymatgen_features.coverage" NAME="get_pymatgen_features Coverage Results" MODIFIED="1719556442857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$kl_model_generation_gboost.coverage" NAME="kl_model_generation_gboost Coverage Results" MODIFIED="1715234928630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Final_Model" />
+    <SUITE FILE_PATH="coverage/$qf_model_generation_gboost_test.coverage" NAME="qf_model_generation_gboost_test Coverage Results" MODIFIED="1718288840472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Final_Model" />
+    <SUITE FILE_PATH="coverage/$root_node_analysis_qf.coverage" NAME="root_node_analysis_qf Coverage Results" MODIFIED="1719385497142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree_analysis" />
+    <SUITE FILE_PATH="coverage/$predict_test.coverage" NAME="predict_test Coverage Results" MODIFIED="1719844559830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/屈服强度" />
+    <SUITE FILE_PATH="coverage/$data0204.coverage" NAME="data0204 Coverage Results" MODIFIED="1710817942105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/屈服强度" />
+    <SUITE FILE_PATH="coverage/$generate_experimental_validation_data_without_xichuxiang__1_.coverage" NAME="generate_experimental_validation_data_without_xichuxiang (1) Coverage Results" MODIFIED="1718263520432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data" />
+    <SUITE FILE_PATH="coverage/$select_target_system.coverage" NAME="select_target_system Coverage Results" MODIFIED="1713145584347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasets" />
+    <SUITE FILE_PATH="coverage/$20240607.coverage" NAME="20240607 Coverage Results" MODIFIED="1718097907052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data" />
+    <SUITE FILE_PATH="coverage/$kl_model_generation_xgboost__1_.coverage" NAME="kl_model_generation_xgboost (1) Coverage Results" MODIFIED="1710833101666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Final_Model" />
+    <SUITE FILE_PATH="coverage/$predict_validation__2_.coverage" NAME="predict_validation (2) Coverage Results" MODIFIED="1710814924568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度" />
+    <SUITE FILE_PATH="coverage/$qf_281features.coverage" NAME="qf_281features Coverage Results" MODIFIED="1719406015920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data/qf" />
+    <SUITE FILE_PATH="coverage/$test_knn__1_.coverage" NAME="test_knn (1) Coverage Results" MODIFIED="1719735948687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度" />
+    <SUITE FILE_PATH="coverage/$dataset_stability.coverage" NAME="dataset_stability Coverage Results" MODIFIED="1719281285934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$qf_model.coverage" NAME="qf_model Coverage Results" MODIFIED="1718791626859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data/qf" />
+    <SUITE FILE_PATH="coverage/$gboost_compare_same.coverage" NAME="gboost_compare_same Coverage Results" MODIFIED="1714919801507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度_refined" />
+    <SUITE FILE_PATH="coverage/$qf_289features__1_.coverage" NAME="qf_289features (1) Coverage Results" MODIFIED="1719982061525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data/qf" />
+    <SUITE FILE_PATH="coverage/$qf_model_generation_xgboost.coverage" NAME="qf_model_generation_xgboost Coverage Results" MODIFIED="1719824174652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/屈服强度" />
+    <SUITE FILE_PATH="coverage/$qf_model_generation_gboost.coverage" NAME="qf_model_generation_gboost Coverage Results" MODIFIED="1719903845618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/屈服强度" />
+    <SUITE FILE_PATH="coverage/$new_shap_final.coverage" NAME="new_shap_final Coverage Results" MODIFIED="1720531901783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shap_new" />
+    <SUITE FILE_PATH="coverage/$get_all_prediciton_results.coverage" NAME="get_all_prediciton_results Coverage Results" MODIFIED="1718438951349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$multi_sample_analysis.coverage" NAME="multi_sample_analysis Coverage Results" MODIFIED="1720974595534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_analysis" />
+    <SUITE FILE_PATH="coverage/AI_Mg_Alloy_Design$get_all_prediciton_results.coverage" NAME="get_all_prediciton_results Coverage Results" MODIFIED="1725088403790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Final_feature_thresholds_compare.coverage" NAME="Final_feature_thresholds_compare Coverage Results" MODIFIED="1718766142567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$kl_286features__1_.coverage" NAME="kl_286features (1) Coverage Results" MODIFIED="1718183836991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data/qf" />
+    <SUITE FILE_PATH="coverage/$test_knn.coverage" NAME="test_knn Coverage Results" MODIFIED="1719734768601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/屈服强度" />
+    <SUITE FILE_PATH="coverage/$final_performance.coverage" NAME="final_performance Coverage Results" MODIFIED="1719844482028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$predict_validation.coverage" NAME="predict_validation Coverage Results" MODIFIED="1714978609520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度" />
+    <SUITE FILE_PATH="coverage/$generate_experimental_validation_data.coverage" NAME="generate_experimental_validation_data Coverage Results" MODIFIED="1718247964701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data" />
+    <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1720535522268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shap_new" />
+    <SUITE FILE_PATH="coverage/$get_experimental0127_data.coverage" NAME="get_experimental0127_data Coverage Results" MODIFIED="1719912092021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1716015209615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHAP" />
+    <SUITE FILE_PATH="coverage/$qf_model_generation_knn.coverage" NAME="qf_model_generation_knn Coverage Results" MODIFIED="1719903906896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/屈服强度" />
+    <SUITE FILE_PATH="coverage/$kl_Full_features.coverage" NAME="kl_Full_features Coverage Results" MODIFIED="1718176450034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data" />
+    <SUITE FILE_PATH="coverage/$concat_excels.coverage" NAME="concat_excels Coverage Results" MODIFIED="1720492411839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature_compare" />
+    <SUITE FILE_PATH="coverage/$kl_model_generation_knn.coverage" NAME="kl_model_generation_knn Coverage Results" MODIFIED="1719924226403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度" />
+    <SUITE FILE_PATH="coverage/$xgb_compare_same.coverage" NAME="xgb_compare_same Coverage Results" MODIFIED="1715084672108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度_refined" />
+    <SUITE FILE_PATH="coverage/$kl_model_generation_rf.coverage" NAME="kl_model_generation_rf Coverage Results" MODIFIED="1719856336140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度" />
+    <SUITE FILE_PATH="coverage/$Full_Feature__1_.coverage" NAME="Full_Feature (1) Coverage Results" MODIFIED="1710825560793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/屈服强度" />
+    <SUITE FILE_PATH="coverage/$test_knm_optimization.coverage" NAME="test_knm_optimization Coverage Results" MODIFIED="1719823013844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/屈服强度" />
+    <SUITE FILE_PATH="coverage/$shap_test.coverage" NAME="shap_test Coverage Results" MODIFIED="1710851628583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHAP" />
+    <SUITE FILE_PATH="coverage/$kl_knn_param_k_analysis.coverage" NAME="kl_knn_param_k_analysis Coverage Results" MODIFIED="1720079612396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_analysis/general_model" />
+    <SUITE FILE_PATH="coverage/$qf_knn_param_k_analysis.coverage" NAME="qf_knn_param_k_analysis Coverage Results" MODIFIED="1720079668338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_analysis/general_model" />
+    <SUITE FILE_PATH="coverage/$Dataset.coverage" NAME="Dataset Coverage Results" MODIFIED="1710758727357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$kl_top20features.coverage" NAME="kl_top20features Coverage Results" MODIFIED="1718162034296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data" />
+    <SUITE FILE_PATH="coverage/$kl_model.coverage" NAME="kl_model Coverage Results" MODIFIED="1718791970583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data/kl" />
+    <SUITE FILE_PATH="coverage/$root_node_analysis_kl.coverage" NAME="root_node_analysis_kl Coverage Results" MODIFIED="1719391321505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree_analysis" />
+    <SUITE FILE_PATH="coverage/$generate_experimental_validation_data_with_xichuxiang.coverage" NAME="generate_experimental_validation_data_with_xichuxiang Coverage Results" MODIFIED="1718248446181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data" />
+    <SUITE FILE_PATH="coverage/$simple_test.coverage" NAME="simple_test Coverage Results" MODIFIED="1718196084389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$get_top_features.coverage" NAME="get_top_features Coverage Results" MODIFIED="1718278215815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data" />
+    <SUITE FILE_PATH="coverage/$combine_shap.coverage" NAME="combine_shap Coverage Results" MODIFIED="1718370699531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHAP" />
+    <SUITE FILE_PATH="coverage/$new_shap.coverage" NAME="new_shap Coverage Results" MODIFIED="1715236916546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHAP" />
+    <SUITE FILE_PATH="coverage/$qf_model_generation_rf.coverage" NAME="qf_model_generation_rf Coverage Results" MODIFIED="1719224629761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Final_Model" />
+    <SUITE FILE_PATH="coverage/$kl_model_generation_xgboost.coverage" NAME="kl_model_generation_xgboost Coverage Results" MODIFIED="1719856428252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抗拉强度" />
+    <SUITE FILE_PATH="coverage/$get_experimental_data.coverage" NAME="get_experimental_data Coverage Results" MODIFIED="1719888976258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$kl_281features.coverage" NAME="kl_281features Coverage Results" MODIFIED="1718873158081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data/kl" />
+    <SUITE FILE_PATH="coverage/$kl_289features.coverage" NAME="kl_289features Coverage Results" MODIFIED="1719996168535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Small_Data_new/kl" />
+  </component>
+</project>

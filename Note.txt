@@ -1,0 +1,169 @@
+[析出相分布 Precipitate Distribution]
+无：0
+晶界：1
+晶内：2
+晶界+晶内：3
+晶内+晶界：3
+
+
+【惯习面 Habit Plane】
+无：0
+随机/杂质：1
+1+柱面：2
+1+基面：3
+基面：4
+基面+柱面：5
+柱面：6
+
+【qf/kl】
+表示屈服强度预测、抗拉强度预测两类问题
+
+【precipitate】 表示析出相沉淀
+
+********最主要的模型训练文件——【屈服强度】【抗拉强度】两个文件夹（用于训练通用模型 Model 5），【Small_Data_new】用于训练expert Model （Model6）********
+*******其余文件夹主要为各类分析或者统计相关的文件******
+
+
+——————————————————————————主目录AI_Mg_Alloy_Design下的文件——————————————————————————
+【Dataset_process.ipynb】
+    存放了从原始的数据集，经过正则化、编码、以及matminer特征扩展等一系列过程生成最终可用于训练的数据集
+    Original_Data/20240627Mg_alloy.xlsx  ——>   Full_general.xlsx
+【dataset_statistics.ipynb】
+    统计了所用数据集的元素信息等
+【utils.py/ipynb】
+    存放了一些简单的新建文件夹等函数
+【strength_calculation.py】
+    用于计算特征生成后，根据元素原子比和经验公式计算出合金的【计算固溶、计算晶界、理论（计算）屈服强度】
+
+[Full_genearl.xlsx] 经过一系列处理后的数据集，包含了训练所用的特征和实际的labels（屈服、抗拉强度）
+
+
+————————————————————————————————————【Yield Strength屈服强度】目录下文件————————————————————————————————————
+【data_set_process.ipynb】
+    处理异常数据点，从860个数据中删除了30个左右的样本，存储到后续新的train_set_new.xlsx 和test_set_new.xlsx 用于训练和测试
+【10_algorithms_compare.ipynb】
+    根据train_set_new在10个模型上使用网格搜索进行训练获得该模型在数据集上表现的最佳(相对)模型，比较不同模型的性能,保存到scores_different_algorithms中，模型文件保存到models下的对应算法的文件夹下
+【top_5_algorithms_optimization.ipynb】
+    对于表现好的模型,选取top5模型进行进一步网格搜索，优化最佳参数，模型文件保存到models下的对应算法的文件夹下
+【weights_selection.ipynb】
+    选择top5的最佳模型分配不同的权重，测试在额外验证集（100个样本)上的表现，确定最佳的投票参数,结果保存到predict_performanceFULL.xlsx
+【get_final_ensemble_sub_models】
+    对于投票确定的最佳的两类模型，分别采用五折交叉，训练得到对应的子模型，保存到相应的文件夹中
+【test_for_fun.py】
+    测试用，打印最终模型在各个折数据上的表现
+【utils.py/ipynb】
+    存放了一些简单的新建文件夹等函数
+
+[With_precipitate_data.xlsx, No_precipitate_data.xlsx] 根据析出相特征（Habit Plane）划分出的两类数据集，对应有析出相和没有析出相数据
+
+
+————————————————————————————————————【Tensile Strength抗拉强度】目录下文件————————————————————————————————————
+以下同屈服强度的流程和分析过程
+【data_set_process.ipynb】
+    处理异常数据点，从860个数据中删除了30个左右的样本，存储到后续新的train_set_new.xlsx 和test_set_new.xlsx 用于训练和测试
+【10_algorithms_compare.ipynb】
+    根据train_set_new在10个模型上使用网格搜索进行训练获得该模型在数据集上表现的最佳(相对)模型，比较不同模型的性能,保存到scores_different_algorithms中，模型文件保存到models下的对应算法的文件夹下
+【top_5_algorithms_optimization.ipynb】
+    对于表现好的模型,选取top5模型进行进一步网格搜索，优化最佳参数，模型文件保存到models下的对应算法的文件夹下
+【weights_selection.py】
+    选择top5的最佳模型分配不同的权重，测试在额外验证集（100个样本)上的表现，确定最佳的投票参数,结果保存到predict_performanceFULL.xlsx
+【get_final_ensemble_sub_models】
+    对于投票确定的最佳的两类模型，分别采用五折交叉，训练得到对应的子模型，保存到相应的文件夹中
+【test_for_fun.py】
+    测试用，打印最终模型在各个折数据上的表现
+【utils.py/ipynb】
+    存放了一些简单的新建文件夹等函数
+
+————————————————————————————————————feature_compare目录下文件————————————————————————————————————
+【data_generation.ipynb】
+    生成不同的描述符（9类）的数据，保存到data文件夹下
+【feature_compare1.ipynb】
+    比较不同模型的性能并将{模型}{精度结果}保存至对应的FULL_{descriptor_name}文件夹下的model和xlsx文件中
+ 【concat.ipynb】
+    把9个文件中的不同描述符的结果进行合并，比较不同描述符的精度
+
+————————————————————————————————————Small_Data_new目录下文件————————————————————————————————————
+*********【dataset_prediction】目录*************
+    用来生成材料样本进行预测和验证
+
+    test_generate.py  根据所要求的具体的析出相特征信息来生成对应的样本特征，以备训练
+    generate_dataset.ipynb   根据生成的样本数据集来预测屈服强度和抗拉强度
+    生成的样本数据保存到materials_data等文件中
+    预测的结果保存到Prediction_Result等文件夹中，只有关键的析出相特征、元素成分和对应预测强度信息
+    Target_data为中间文件，记录了所有的特征
+
+*********【index】目录*************
+   记录分折信息，方便绘制SHAP结果
+
+*********【final_model】目录*************
+    保存了expert（Model 6）集成学习模型的sub_models文件，实际上，为了简化流程，我们expert模型均采用随机森林模型和五折交叉验证，也就是5个sub_models.而general model才是真正10个模型
+
+*********【qf】、【kl】目录*************
+    为了说明如果不进行特征筛选会过拟合，作为对比，验证了采用general一样的多个(280个左右的特征)训练下的模型效果，以方便和我们筛选模型后的结果对比分析，论文SI NoteS3： FigN3-2
+
+【dataset_process.ipynb】
+    分别选取了不同数量下的Model 5 的top特征，前5个、前10个、前20个等，然后再添加上新的需要重点研究的具体析出相尺寸特征，生成不同的数据集并比较，确定最优的特征数量
+
+【get_models.ipynb】
+    生成对应的qf、kl的五个最佳字模型（均为rf），保存到final_model文件夹下
+
+【small_model_shap_analysis.ipynb】
+    绘制对应的SHAP图结果
+
+【model_analysis】
+    分析小数据的集成学习模型Model6的测试集交叉验证精度
+
+
+————————————————————————————————————shap_new目录下文件————————————————————————————————————
+    主要进行General Model （Model5）的SHAP分析
+*********index文件夹*************
+    存放分折信息和SHAP的importance_ranking等输出结果，  其中：
+    qf_final_feature_shap_values.xlsx存放了所有模型的SHAP加权后的最终排序
+    而qf_final_feature_shap_values.xlsx和kl_final_feature_shap_values.xlsx存放qf/kl模型对应的SHAP特征排序
+    qf_shap_combined.xlsx存放了所有模型加权后不同特征全部的SHAP统计信息
+    kl_shap.xlsx和qf_shap.xlsx 存放对应的模型对应的全部SHAP值统计信息
+*********models文件夹*************
+    存放Model5下的sub_models文件
+
+【shap_plots.ipynb】
+    保存相应的SHAP信息，并且绘制Genearl Model涉及到合金的结果。基于得到的SHAP信息（qf_shap_combined.xlsx存放了所有模型加权后不同特征全部的SHAP统计信息）后续再绘制SHAP分析图
+
+————————————————————————————————————model_analysis目录下文件————————————————————————————————————
+multi_sample_analysis.py文件整合和General_Model和expert Model的单变量分析的结果
+test.ipynb 测试用
+
+*********d_electrons文件夹*************
+    做了单独的对比实验，说明如果General Model（Model5）即使不含有析出相信息进行训练，获得的d电子的SHAP结果，即不同d电子对应的SHAP正负的结果依旧和我们析出相模型一致的结论。SI中Fig. S3的结论
+
+*********general model文件夹*************
+
+【final_single_variable.ipynb】
+    通过选择的单个样本，改变关键的变量d_electron和grain size，获取它们对应预测结果变化最大的点,对应正文Fig. 4a-b。
+【multi_simple_analysis.py】
+    选择全部的样本，获取统计信息,对应正文Fig. 4e-f
+【regressor_convergence.ipynb】
+    绘制迭代收敛曲线图（论文不涉及）
+【root_node_analysis.ipynb】
+    整理所有树模型根节点的统计分布（论文不涉及）
+【simple_variable.ipynb】
+    测试用，单变量分析
+
+*********small model文件夹*************
+【si'mple_variable_small_model.ipynb】
+    对于Model6进行对应的单变量分析，研究变量为Width of basal phase和Diameter of prismatic phase
+    分别研究了单个样本，对应正文Fig. 4c-d  以及全部样本，对应正文Fig. 4g-h
+
+
+
+————————————————————————————————————opeartions目录下文件————————————————————————————————————
+    涉及到百万维数据库生成、以及备用的一系列文件
+    用户按照准备配置环境部分说明配置好环境并且设置好Dataset_generate.py中的元素成分后，无需准备数据库，依次运行Dataset_geration.py, Dataset_predict.py,Dataset_select.py等文件，即可生成多体系的满足强度阈值的镁合金数据集。
+    注意：数据集生成过程对算力和存储空间有要求，建议在服务器上运行。
+
+————————————————————————————————————tree analysis目录下文件————————————————————————————————————
+【root_node_analysis_kl.py】【root_node_analysis_qf.py】
+    分别统计qf/kl两类问题树模型的根节点信息（论文未涉及）
+
+#   A I _ M g _ A l l o y _ D e s i g n 
+ 
+ 
