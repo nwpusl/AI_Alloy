@@ -1,0 +1,12 @@
+Complexity,Loss,Equation
+1,6762.1543,"Calculated_Yield_Strength"
+3,5421.1567,"Calculated_Yield_Strength + 36.61843"
+5,4244.799,"(Calculated_Yield_Strength * 0.6081243) + 96.20847"
+7,4204.5967,"exp((inv(Calculated_Yield_Strength) * -72.63748) + 5.81546)"
+9,4098.4316,"(Calculated_Yield_Strength * ((Calculated_Yield_Strength * -0.000947418) + 1.0273364)) + 61.622883"
+10,4094.759,"(Calculated_Yield_Strength * (sin(Calculated_Yield_Strength * -0.00097107416) + 1.0274731)) + 61.14683"
+11,4056.858,"(Calculated_Yield_Strength + (Calculated_Yield_Strength * ((Calculated_Yield_Strength + Grain_Size) * -0.0009366072))) + 69.698875"
+13,4046.415,"Calculated_Yield_Strength + (((Calculated_Yield_Strength + (Grain_Size * 1.7575866)) * (Calculated_Yield_Strength * -0.00095687096)) + 73.70065)"
+15,3987.852,"((((Calculated_Yield_Strength * Grain_Size) * 0.023342336) + Calculated_Yield_Strength) * (Calculated_Yield_Strength * -0.00092431164)) + (Calculated_Yield_Strength + 76.30307)"
+16,3882.9053,"(Calculated_Yield_Strength + ((Calculated_Yield_Strength * -0.0011230678) * (Calculated_Yield_Strength + (sin(Grain_Size * -0.20168936) * Calculated_Yield_Strength)))) + 60.162384"
+18,3838.259,"Calculated_Yield_Strength + ((Calculated_Yield_Strength * (((sin(Grain_Size * -0.20303088) * (Calculated_Yield_Strength + -58.92534)) + Calculated_Yield_Strength) * -0.0011633165)) + 63.392483)"
