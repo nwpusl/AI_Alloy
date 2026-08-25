@@ -93,8 +93,7 @@ If you use this code in your research, please cite:
 @article{li2025physics,
   title={A physics-informed machine learning framework for sustainable alloy design},
   author={Li, Quan and Wang, Zhilong and Shi, Lei and Feng, Baojing and Liu, Changhui 
-          and Wang, Jie and Chen, An and Tao, Kehao and Han, Yanqiang and He, Wei 
-          and Wang, Shiwei and Song, Hanping and Wang, Jingya and Zheng, Weisen 
+          and Wang, Jie and Wang, Jingya and Zheng, Weisen 
           and Jovičević-Klug, Matic and Rao, Ziyuan and Li, Jinjin 
           and Raabe, Dierk and Zeng, Xiaoqin},
   journal={Under review},
